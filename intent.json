@@ -1,0 +1,124 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "scribd books",
+            "intents": [
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PlayStreamIntent",
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.Book"
+                        },
+                        {
+                            "name": "genre",
+                            "type": ""
+                        }
+                    ],
+                    "samples": [
+                        "play {genre} book",
+                        "play {name}",
+                        "to play",
+                        "to start playing",
+                        "to begin playing"
+                    ]
+                },
+                {
+                    "name": "AboutIntent",
+                    "slots": [],
+                    "samples": [
+                        "about",
+                        "what is this",
+                        "tell me about this"
+                    ]
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.LoopOnIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ShuffleOnIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.LoopOffIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ShuffleOffIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help me",
+                        "how does this work",
+                        "what should i do"
+                    ]
+                },
+                {
+                    "name": "AMAZON.SearchAction<object@Book>",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "AMAZON.Book",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "the big red dog"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "AMAZON.Genre",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "horror"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
